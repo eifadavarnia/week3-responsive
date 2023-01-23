@@ -4,6 +4,10 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+body {
+  margin: 100px 0 !important;
+}
+
 h1,
 h2,
 h3 {
@@ -47,6 +51,9 @@ p {
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
+  color: white;
+}
+.primary-link:hover {
   color: white;
 }
 
